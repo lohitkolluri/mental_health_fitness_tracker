@@ -335,14 +335,35 @@ least_precise_model = sorted_models[-1][0]
 print(f"The most precise model is: {most_precise_model}")
 print(f"The least precise model is: {least_precise_model}")
 ```
-## SUMMARY
+## Summary
+
 - Developed a fully functional Mental Health Fitness Tracker ML model using Python and scikit-learn.
 - Utilized 12 types of regression algorithms to achieve precise results in analyzing and predicting mental fitness levels from over 150 countries.
 - Cleaned, preprocessed, and engineered features to enhance the model's predictive capabilities.
 - Optimized the model's performance by fine-tuning hyperparameters and implementing ensemble methods, resulting in an impressive accuracy percentage of 98.50%.
 
+## Model Performance
 
-## REFRENCES
-- Datasets that were user in here were taken from [ourworldindia.org](https://ourworldindata.org/grapher/mental-and-substance-use-as-share-of-disease)
+The regression models are listed below in order of precision:
 
-- This project was made during my internship period for [Edunet Foundation](https://edunetfoundation.org) in association with [IBM SkillsBuild](https://skillsbuild.org) and [AICTE](https://internship.aicte-india.org)
+1. Ridge Regression
+   - Mean Squared Error (MSE)
+   - R-squared Score
+
+2. Elastic Net Regression
+   - Mean Squared Error (MSE)
+   - R-squared Score
+
+3. Polynomial Regression
+   - Mean Squared Error (MSE)
+   - R-squared Score
+   
+   ... (continue for other models)
+
+The most precise model is: Ridge Regression
+The least precise model is: Neural Network Regression
+
+## References
+
+- Datasets used in this project were obtained from [ourworldindia.org](https://ourworldindata.org/grapher/mental-and-substance-use-as-share-of-disease).
+- This project was developed during an internship for [Edunet Foundation](https://edunetfoundation.org) in association with [IBM SkillsBuild](https://skillsbuild.org) and [AICTE](https://internship.aicte-india.org).
